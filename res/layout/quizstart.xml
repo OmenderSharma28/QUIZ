@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/android"
+  
+  >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+	     <TextView
+	android:id="@+id/timer"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Time .."
+	android:textSize="18sp"
+	android:textStyle="bold" 
+	android:textColor="@color/red" />
+		<ProgressBar
+	android:id="@+id/progress"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	style="?android:attr/progressBarStyleHorizontal" />
+		
+	
+	
+    <TextView android:text="Quiz"
+     android:id="@+id/textView2"
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:textSize="25dip"
+      android:layout_marginLeft="120dip"
+   android:textColor="@color/blue">
+      </TextView>
+  <TextView android:id="@+id/question"
+     android:layout_height="wrap_content" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:layout_width="wrap_content"
+     android:layout_marginLeft="10dip"
+      android:text="What is name of indian microwave radar imaging satellite  ?"
+      android:textColor="@color/black">
+      </TextView>
+      <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  	<RadioGroup  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/rgroup"
+  >
+    <RadioButton android:text="Giset -1" 
+    android:id="@+id/option1"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:textColor="@color/black"
+     android:onClick="onRadioButtonClicked">
+     </RadioButton>
+    <RadioButton android:text="Miset -1" 
+    android:id="@+id/option2"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:textColor="@color/black"
+     android:onClick="onRadioButtonClicked">
+     </RadioButton>
+    <RadioButton android:text="Tiset -1" 
+    android:id="@+id/option3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:onClick="onRadioButtonClicked">
+    </RadioButton>
+    <RadioButton android:text="Risat -1"
+     android:id="@+id/option4" 
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:onClick="onRadioButtonClicked">
+      </RadioButton>
+      </RadioGroup>
+    </LinearLayout>
+    
+    <Button android:text="Next"
+     android:id="@+id/next" 
+     android:layout_width="fill_parent"
+      android:layout_marginRight="30dip"
+     android:layout_marginLeft="30dip"
+      android:layout_marginTop="10dip"
+        android:layout_height="35dip"
+     />
+    
+</LinearLayout>
+</ScrollView>

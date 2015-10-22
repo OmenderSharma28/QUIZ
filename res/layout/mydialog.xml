@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+ android:layout_width="250px"
+ android:layout_height="100dip"
+ android:background="@drawable/android">
+  
+ <TextView android:id="@+id/hedding"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textSize="20px"
+ android:layout_centerHorizontal="true"
+ android:text="Confirm Your Answer"/>
+ 
+ <Button android:id="@+id/Btn1"
+ android:layout_width="wrap_content"
+ android:layout_height="40dip"
+ android:text="Yes"
+ android:layout_below="@+id/hedding"
+ android:layout_marginLeft="48dip"
+  />
+ 
+ <Button android:id="@+id/Btn2"
+ android:layout_width="wrap_content"
+ android:layout_height="40dip"
+ android:layout_below="@+id/hedding"
+ android:layout_toRightOf="@+id/Btn1"
+ android:text="No" />
+</RelativeLayout>

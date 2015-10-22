@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/myborder"
+    android:id="@+id/root_layout">
+
+<TextView android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:text="You Tick Worng Answer "
+    android:layout_gravity="center" 
+    android:id="@+id/toasttext"
+    android:paddingTop="5dip"
+    android:paddingLeft="20dip"
+    android:background="@color/red"
+    android:textColor="@color/black"
+    />
+</LinearLayout>

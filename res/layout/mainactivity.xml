@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/android"
+  >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <ImageView android:id="@+id/imageView1" 
+    android:src="@drawable/quiz" 
+    android:layout_height="150dip" 
+    android:layout_width="fill_parent">
+    </ImageView>
+    <TextView android:text="Gernal Knowledge"
+     android:id="@+id/textView1"
+      android:layout_width="fill_parent" 
+      android:layout_height="30dip"
+      android:gravity="center"
+      android:textColor="@color/green"
+      >
+      </TextView>
+    <Button android:text="Indian Constitution " 
+    android:id="@+id/entertainment "
+     android:layout_width="fill_parent"
+     android:layout_marginTop="2dip"
+      android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+      android:layout_height="40dip">
+      </Button>
+    <Button android:text="Current Affairs" 
+    android:id="@+id/current_Affairs" 
+    android:layout_width="fill_parent"
+     android:layout_height="40dip"
+     android:layout_marginTop="2dip"
+     android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+     android:gravity="center">
+     </Button>
+      
+    <Button android:id="@+id/sports" 
+    android:layout_height="40dip" 
+    android:layout_width="fill_parent"
+    android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+    android:layout_marginTop="2dip" 
+    android:text="Sports">
+    </Button>
+   
+    <Button android:text="Science" 
+    android:id="@+id/science"
+     android:layout_width="fill_parent"
+     android:layout_marginTop="2dip"
+    android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+       android:layout_height="40dip">
+      </Button>
+    <Button android:text="History"
+     android:id="@+id/histary"
+      android:layout_width="fill_parent"
+      android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+      android:layout_marginTop="2dip"
+        android:layout_height="40dip">
+       </Button>
+    <Button android:text="Quiz" 
+    android:id="@+id/quiz" 
+    android:layout_width="fill_parent"
+     android:layout_marginRight="40dip"
+     android:layout_marginLeft="40dip"
+      android:layout_marginTop="2dip"
+        android:layout_height="40dip">
+    </Button>    
+</LinearLayout>
+</ScrollView>
